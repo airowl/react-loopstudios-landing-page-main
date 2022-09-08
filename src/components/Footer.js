@@ -29,25 +29,6 @@ const navData = [
   },
 ];
 
-const iconData = [
-  {
-    icon: "fb",
-    url: "#"
-  },
-  {
-    icon: "twit",
-    url: "#"
-  },
-  {
-    icon: "pint",
-    url: "#"
-  },
-  {
-    icon: "inst",
-    url: "#"
-  },
-]
-
 const Footer = () => {
   return (
     <footer className='bg-black text-white py-14 '>
