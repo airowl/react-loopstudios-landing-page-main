@@ -52,7 +52,7 @@ const Gallery = () => {
         <h1 className='text-4xl md:text-7xl mb-12 md:mb-0'>
           OUR CREATIONS
         </h1>
-        <button className='hidden md:block border-2 border-solid border-black px-10 py-2 transition-all duration-300 ease-in-out hover:bg-black hover:text-white mt-8 text-1xl tracking-widest'>SEE ALL</button>
+        <button className='hidden md:block border-2 border-solid border-black px-10 py-2 transition-all duration-300 ease-in-out hover:bg-black hover:text-white mt-8 md:mt-0 text-1xl tracking-widest'>SEE ALL</button>
       </div>
       <div className='flex flex-col md:flex-wrap md:flex-row gap-5 mx-5 md:mx-0'>
         {

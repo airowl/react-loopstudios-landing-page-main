@@ -31,8 +31,8 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className='fixed top-0 left-0 right-0 z-30 flex justify-between items-center md: py-8 px-5 md:px-0 container mx-auto'>
-      <img className='w-[50%] md:w-[30%] z-20' src={logo} alt='logo image'/>
+    <header className='fixed top-0 left-0 right-0 z-30 flex justify-between items-center py-12 px-5 md:px-0 container mx-auto'>
+      <img className='w-[50%] md:w-[15%] z-20' src={logo} alt='logo image'/>
       <div onClick={() => setMenuOpen(!menuOpen)} className="cursor-pointer z-20 md:hidden">
         <img src={hamIcon}  alt="ham icon" className={`${menuOpen == true ? 'hidden' : ''} `}/>
         <img src={closeIcon} alt="close icon" className={`${menuOpen == false ? 'hidden' : ''}`}/>
