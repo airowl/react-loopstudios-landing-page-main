@@ -47,7 +47,7 @@ const Gallery = () => {
   ]
 
   return (
-    <section className='container mx-auto'>
+    <section className='container mx-auto mb-24'>
       <div className='md:flex md:justify-between md:items-center md:py-20'>
         <h1 className='text-4xl md:text-7xl mb-12 md:mb-0'>
           OUR CREATIONS
