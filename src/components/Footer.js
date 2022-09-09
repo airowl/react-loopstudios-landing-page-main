@@ -34,7 +34,7 @@ const Footer = () => {
     <footer className='bg-black text-white py-14 '>
       <div className='container mx-auto md:flex md:justify-between items-center'>
         <div className='flex flex-col items-center md:items-start'>
-          <img className='w-[40%] mb-2' src={logo} alt='logo image'/>
+          <img className='w-[40%] mb-2' src={logo} alt='logo'/>
           <nav>
             <ul className='md:flex md:gap-8 font-[Alata]'>
               {
@@ -53,22 +53,22 @@ const Footer = () => {
           <nav>
             <ul className='flex justify-center items-center gap-4'>
               <li className='md:border-b-2 md:border-solid md:border-transparent md:hover:border-b-2 md:hover:border-solid md:hover:border-current md:pb-1'>
-                <a href='#'>
+                <a href='https://www.frontendmentor.io/profile/airowl'>
                   <img src={fb} alt='social icon' />
                 </a>
               </li>
               <li className='md:border-b-2 md:border-solid md:border-transparent md:hover:border-b-2 md:hover:border-solid md:hover:border-current md:pb-1'>
-                <a href='#'>
+                <a href='https://www.frontendmentor.io/profile/airowl'>
                   <img src={twit} alt='social icon' />
                 </a>
               </li>
               <li className='md:border-b-2 md:border-solid md:border-transparent md:hover:border-b-2 md:hover:border-solid md:hover:border-current md:pb-1'>
-                <a href='#'>
+                <a href='https://www.frontendmentor.io/profile/airowl'>
                   <img src={pint} alt='social icon' />
                 </a>
               </li>
               <li className='md:border-b-2 md:border-solid md:border-transparent md:hover:border-b-2 md:hover:border-solid md:hover:border-current md:pb-1'>
-                <a href='#'>
+                <a href='https://www.frontendmentor.io/profile/airowl'>
                   <img src={inst} alt='social icon' />
                 </a>
               </li>
