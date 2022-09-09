@@ -34,10 +34,10 @@ const Header = () => {
     <header className='fixed top-0 left-0 right-0 z-30 flex justify-between items-center py-12 px-5 md:px-0 container mx-auto'>
       <img className='w-[50%] md:w-[15%] z-20' src={logo} alt='logo image'/>
       <div onClick={() => setMenuOpen(!menuOpen)} className="cursor-pointer z-20 md:hidden">
-        <img src={hamIcon}  alt="ham icon" className={`${menuOpen == true ? 'hidden' : ''} `}/>
-        <img src={closeIcon} alt="close icon" className={`${menuOpen == false ? 'hidden' : ''}`}/>
+        <img src={hamIcon}  alt="ham icon" className={`${menuOpen === true ? 'hidden' : ''} `}/>
+        <img src={closeIcon} alt="close icon" className={`${menuOpen === false ? 'hidden' : ''}`}/>
       </div>
-      <nav className={`fixed top-[-100vh] left-0 right-0 h-screen bg-black text-white transition-all ease-in-out duration-300 md:hidden ${menuOpen == true ? 'top-[0]' : ''}`}>
+      <nav className={`fixed top-[-100vh] left-0 right-0 h-screen bg-black text-white transition-all ease-in-out duration-300 md:hidden ${menuOpen === true ? 'top-[0]' : ''}`}>
         <ul className='px-5 flex flex-col justify-center items-start h-full'>
           {
             navData.map((e, i) => (
@@ -50,11 +50,11 @@ const Header = () => {
           }
         </ul>
       </nav>
-      <nav className={` text-white hidden md:block`}>
+      <nav className={` text-white hidden md:block font-[Alata]`}>
         <ul className='md:flex'>
           {
             navData.map((e, i) => (
-              <li key={i} className="ml-5">
+              <li key={i} className="ml-5 md:border-b-2 md:border-solid md:border-transparent md:hover:border-b-2 md:hover:border-solid md:hover:border-current">
                 <a href={e.url} className="">
                   {e.text}
                 </a>

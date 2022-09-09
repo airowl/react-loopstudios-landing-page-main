@@ -36,10 +36,10 @@ const Footer = () => {
         <div className='flex flex-col items-center md:items-start'>
           <img className='w-[40%] mb-2' src={logo} alt='logo image'/>
           <nav>
-            <ul className='md:flex md:gap-8'>
+            <ul className='md:flex md:gap-8 font-[Alata]'>
               {
                 navData.map((e, i) => (
-                  <li key={i} className='pt-4 font-semibold'>
+                  <li key={i} className='pt-4 font-semibold md:border-b-2 md:border-solid md:border-transparent md:hover:border-b-2 md:hover:border-solid md:hover:border-current'>
                     <a href={e.url}>
                       {e.text}
                     </a>
@@ -52,22 +52,22 @@ const Footer = () => {
         <div className='mt-10 md:mt-0 flex flex-col items-center md:items-end'>
           <nav>
             <ul className='flex justify-center items-center gap-4'>
-              <li>
+              <li className='md:border-b-2 md:border-solid md:border-transparent md:hover:border-b-2 md:hover:border-solid md:hover:border-current md:pb-1'>
                 <a href='#'>
                   <img src={fb} alt='social icon' />
                 </a>
               </li>
-              <li>
+              <li className='md:border-b-2 md:border-solid md:border-transparent md:hover:border-b-2 md:hover:border-solid md:hover:border-current md:pb-1'>
                 <a href='#'>
                   <img src={twit} alt='social icon' />
                 </a>
               </li>
-              <li>
+              <li className='md:border-b-2 md:border-solid md:border-transparent md:hover:border-b-2 md:hover:border-solid md:hover:border-current md:pb-1'>
                 <a href='#'>
                   <img src={pint} alt='social icon' />
                 </a>
               </li>
-              <li>
+              <li className='md:border-b-2 md:border-solid md:border-transparent md:hover:border-b-2 md:hover:border-solid md:hover:border-current md:pb-1'>
                 <a href='#'>
                   <img src={inst} alt='social icon' />
                 </a>
